@@ -4687,3 +4687,18 @@ input, select, textarea {
 		}
 
 	}
+
+	.image-container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 50%; /* Ensure the container takes up the full width */
+		margin: 0 auto; /* Center the container itself */
+	}
+	
+	.img-scaled {
+		max-width: 100%; /* Scale the image to 50% of its container */
+		height: auto;
+	}
+	
+	
